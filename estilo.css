@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+}
+
+
+body{
+background: rgb(161, 125, 106);
+color: rgb(99, 69, 54);
+}
+.Principal{
+    background:  rgb(4, 40, 7);
+    background-image: url('img/Copia\ de\ imagen\ comida.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:rgb(38, 26, 21);
+    padding:100px ;
+    font-size: 16px;
+}
+.Principal img{
+    width: 170px
+}
+.Blog{
+    height: 500px;
+    background: rgb(217, 198, 167);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 50px 200px;
+}
+.Blog h2{
+    text-align: center;
+}
+.C{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 70px;
+    font-size: 18px;
+    height: 400px;
+    background: rgb(143, 104, 84);
+}
+.C iframe{
+    height: 86%;
+}
+.menu{
+    color: rgb(0, 0, 0);
+    background: rgb(143, 104, 84);
+    height: inherit;
+}
+.header{
+    background:rgb(161, 125, 106);
+    color:  rgb(0, 0, 0);
+    display:flex ;
+    justify-content:space-between ;
+    height:105px ;
+}
+.logo{
+    background: rgb(99, 69, 54);
+    color:  rgb(0, 0, 0);
+}
+.logo img{
+    width: 95px;
+    padding: 5px;
+}
+ul{
+    list-style:none ;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+.header a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    height: inherit;
+    display: flex ;
+    align-items:center ;
+    padding: 0px 10px;
+}
+.header li{
+    height: inherit;
+}
